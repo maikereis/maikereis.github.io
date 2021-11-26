@@ -1,0 +1,53 @@
+.rightpanel {
+    position: absolute;
+    float: left;
+    margin-top: 50px;
+    margin-left: 480px;
+}
+
+.rightcardname {
+    margin: 12px 0px 12px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.rightcards {
+    padding: 50px;
+    max-width: 800px;
+    background: #fdf5e9;
+}
+
+.card {
+    margin-top: 30px;
+}
+
+.card .cardlabel {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #CF7D02;
+}
+
+.cardholder {
+    margin-top: 10px;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgba(211, 209, 209, 0.918);
+    box-shadow: -3px 3px 0px rgb(211, 209, 209);
+    display: flex;
+}
+
+.cardholder img {
+    max-height: 350px;
+    max-width: 350px;
+    padding: 20px;
+}
+
+.cardholder p {
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    text-justify: inter-word;
+}

@@ -7,48 +7,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="menubar.css">
+    <link rel="stylesheet" href="leftpanel.css">
+    <link rel="stylesheet" href="rightpanel.css">
+
 </head>
 
 <body class="main-body">
-    <div class="menu">
+    <div>
+        <header class="menu-bar">
+            <div>
+                <h1 class="menu-elements">
+                    <a href="#"> Home </a>
+                </h1>
+
+                <h1 class="menu-elements">
+                    <a href="#"> Projects </a>
+                </h1>
+
+                <h1 class="menu-elements">
+                    <a href="#"> About-me </a>
+                </h1>
+
+                <h1 class="menu-elements">
+                    <a href="#"> Stack </a>
+                </h1>
+            </div>
+        </header>
+
+        <div class="leftpanel">
+            <h2 class="leftcardname">I'm, Maike Rodrigo</h2>
+            <div class="leftcard">
+                <div class="circle">
+                    <img class="profilepic" src="images/foto.png">
+                </div>
+
+                <p class="intro"> Sou Engenheiro Eletricista formado pela UFPA, minhas áreas de interesse são IoT e Data Science.
+                </p>
+
+                <div class="social-media">
+                    <img src="images/social_media/icons8-linkedin.svg">
+                    <img src="images/social_media/icons8-github.svg">
+                    <img src="images/social_media/icons8-twitter.svg">
+                </div>
+            </div>
+        </div>
+
+        <div class="rightpanel">
+            <h2 class="rightcardname">Portifolio</h2>
+            <div class="rightcards">
+
+                <div class="card">
+                    <label class="cardlabel" for="cardholder">Análise do consumo de energia elétrica</label>
+                    <div class="cardholder">
+                        <div>
+                            <p class="cardbrief">21,28% do total da Energia Elétrica consumida mensalmente poderia ser economizada em uma residência. Isso foi constatado por meio da análise de dados elétricos e ambientais, coletados em uma residência por 41 dias. Os dados
+                                mostraram que a migração de 127V para 220V na rede elétrica da casa e, ao explorar algumas funcionalidades do ar condicionado, poderíamos alcançar esses resultados sem prejudicar o conforto térmico ou a usabilidade dos
+                                eletrodomesticos.
+                            </p>
+                        </div>
+                        <div>
+                            <img src="images/card_images/pie.svg">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <label class="cardlabel" for="cardimg">Google Capstone: Bella Beat</label>
+                    <div class="cardholder">
+                        <div>
+                            <p class="cardbrief">
+                                Bella Beat gives us data about his products, can we use this data to analyze their user's behaviors? Give them insights into Bella Beats new products, or suggest improvements?
+
+                            </p>
+                        </div>
+                        <div>
+                            <img src="images/card_images/bella_beat_app.jpg">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <label class="cardlabel" for="cardimg">Online shoppers intention</label>
+                    <div class="cardholder">
+                        <div>
+                            <p class="cardbrief">
+                                By analyzing the web traffic of e-commerce, what's the matter to that session becoming a purchase? The month of the year, the type of browser? Who is more likely to purchase, women, men? What is the average annual income of buyers? If a new visitor enters
+                                our site, how good our model will be in predicting whether they will purchase or not, based on his navigation session information?
+
+                            </p>
+                        </div>
+                        <div>
+                            <img src="images/card_images/onlineshop.jpeg">
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
 
     </div>
-    <div class="left-panel">
-        <h1 align="center" class="name">Maike R.</h1>
-
-        <div class="circle">
-            <img class="foto" src="images/foto.jpg">
-
-
-        </div>
-
-        <div class="brief">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non mollitia ut maiores dicta rem, ipsa
-                placeat, expedita, deserunt sequi nostrum ratione ea sit iure? Repellendus dolores eveniet quo quisquam
-                fugiat!
-            </p>
-        </div>
-
-
-    </div>
-    <div class="main-panel">
-        <div class="card">
-            <h3>Project 1</h3>
-        </div>
-        <div class="card">
-            <h3>Project 2</h3>
-        </div>
-        <div class="card">
-            <h3>Project 3</h3>
-        </div>
-        <div class="card">
-            <h3>Project 4</h3>
-        </div>
-
-
-    </div>
-
 </body>
 
 </html>

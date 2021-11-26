@@ -1,0 +1,21 @@
+.menu-bar {
+    background: #FB9902;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.menu-bar div {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-elements a {
+    margin-left: 30px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #342B09;
+    text-decoration: none;
+}
